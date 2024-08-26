@@ -1,8 +1,6 @@
 import axios, {
-    Axios,
     AxiosInstance,
     AxiosResponse,
-    isAxiosError,
 } from 'axios';
 const apiClient: AxiosInstance = axios.create({
     baseURL: 'https://api.jigsawstack.com',

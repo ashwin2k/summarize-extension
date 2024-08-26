@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/App.css';
 import { Box, Card, Typography } from '@mui/material';
 import Summarize from './Summarize';
-import Summary from './Summarybody';
+import Summary from './SummaryBody';
 
 function App() {
     const [content, setContent] = useState('');
