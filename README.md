@@ -6,6 +6,7 @@
 - [How to use?](#how-to-use)
 
 # How to use?
+1. Create a `.env` file at the root of the project, and place your Jigsawstack API key in `JIGSAWSTACK_API_KEY` variable
 1. Build the Project using `npm install` and then `npm build`
 2. First, Load the extension using `chrome://extensions`
 3. Next, toggle `Developer Mode` and select load unpacked
