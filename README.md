@@ -9,8 +9,9 @@
 1. Build the Project using `npm install` and then `npm build`
 2. First, Load the extension using `chrome://extensions`
 3. Next, toggle `Developer Mode` and select load unpacked
+   
  ![alt text](assets/loadext.png)
-4. Select the `dist` folder.
+1. Select the `dist` folder.
 
 > **!!Note!!**
 > 
