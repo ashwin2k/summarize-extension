@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "React Chrome Extension",
+  "permissions": ["activeTab", "scripting"],
+  "description": "This is a Chrome extension built with React and TypeScript",
+  "action": {
+    "default_popup": "js/index.html",
+    "default_title": "React Chrome Extension"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "host_permissions": ["https://substack.com/*"],
+
+  "content_scripts": [
+    {
+      "js": ["js/content.js"],
+      "matches": ["https://substack.com/*"]
+    }
+  ]
+}
